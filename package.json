@@ -10,14 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:ToDoCopilot.helloWorld"
+    "onCommand:ToDoCopilot.ToDoCopilot"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "ToDoCopilot.helloWorld",
-        "title": "Hello World"
+        "command": "ToDoCopilot.ToDoCopilot",
+        "title": "ToDoCopilot"
       }
     ]
   },
